@@ -62,9 +62,9 @@ For now, scripts have been developed such that cartesian [t, x, y, z] format dat
 Here program will process every file by first detecting its format, if not cartesian then converting the detected format to cartesian format and lastly appending all the data into a single array.
 Changes can be found in the below pull request:
 
-[Pull Request 1](https://github.com/aerospaceresearch/orbitdeterminator/pull/169) - Defined cartesian format as standard input, integrated automate script in main.py such that it can now be accessed with
+[Pull Request 1](https://github.com/aerospaceresearch/orbitdeterminator/pull/169) - Defined cartesian format as standard input, integrated automate script in main.py such that it can now be accessed with '-a or --automate' tag as
 
-'-a or --automate' tag as `python main.py --automate`,
+`python main.py --automate`,
 
 added function to detect format of input file, convert the format to standard input of the program and give user the option to use multiple input files in multiple formats.
 
